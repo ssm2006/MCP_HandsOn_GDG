@@ -1,0 +1,32 @@
+{
+    "servers": {
+        "my-mcp-server-4ad6c97f": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "install",
+                "@smithery-ai/server-sequential-thinking",
+                "--client",
+                "vscode",
+                "--key",
+                "c285a265-c7bc-4259-9ebc-a85fac443f07"
+            ]
+        },
+        "my-mcp-server-6460d91e": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "install",
+                "@nickclyde/duckduckgo-mcp-server",
+                "--client",
+                "vscode",
+                "--key",
+                "c285a265-c7bc-4259-9ebc-a85fac443f07"
+            ]
+        }
+    }
+}
